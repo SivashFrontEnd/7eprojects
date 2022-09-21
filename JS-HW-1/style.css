@@ -1,0 +1,32 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div {
+    border: solid 1px orange;
+}
+
+.block {
+    display: flex;
+}
+
+.box1 {
+    width: 800px;
+    height: 100px;
+}
+
+.box2 {
+    width: 100px;
+    height: 400px;
+}
+
+.box3 {
+    width: 700px;
+    height: 400px;
+}
+
+.box4 {
+    width: 800px;
+    height: 100px;
+}
