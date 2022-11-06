@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: solid 1px black;
+}
+
+#modal {
+    display: none;
+    border: 2px solid blue;
+  width: 400px;
+  height: 200px;
+  background: #FFFFFF;
+  position: fixed;
+  color: red;
+}
+
+#close {
+position: absolute;
+bottom: 0;
+}
+
+
+

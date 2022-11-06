@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JS-HW-5-6</title>
+</head>
+<body>
+    <h1>Сторінка коментарів</h1>
+ <div contenteditable="true" id="modal">
+    <div contenteditable="false" id="close" data-close><a href="#">ЗАКРЫТЬ &times;</a></div>
+ </div>
+ 
+    <table>
+        <thead>
+            <th>postId</th>
+            <th>id</th>
+            <th>name</th>
+            <th>email</th>
+            <th>body</th>
+            <th>Редактировать</th>
+        </thead>
+        <tbody id="root"></tbody>
+    </table>    
+    <script src="./data.js"></script>
+    <script src="./script3.js"></script>   
+</body>
+</html>
