@@ -1,0 +1,128 @@
+@keyframes block1-animation {
+    from {
+        transform: translateX(-50vh);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes block2-animation {
+    from {
+        transform: translateX(-100vh);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes block3-animation {
+    from {
+        transform: translateX(100vh);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes block4-animation {
+    from {
+        transform: translateX(50vh);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes c1 {
+    from {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 50%;
+    }
+    50% {
+        top: 50%;
+        left: 50%;
+    }
+    75% {
+        top: 50%;
+        left: 0;
+    }
+    to {
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes c2 {
+    from {
+        top: 0;
+        left: 50%;
+    }
+    25% {
+        top: 50%;
+        left: 50%;
+    }
+    50% {
+        top: 50%;
+        left: 0;
+    }
+    75% {
+        top: 0;
+        left: 0;
+    }
+    to {
+        top: 0;
+        left: 50%;
+    }
+}
+
+@keyframes c4 {
+    
+    from {
+        top: 50%;
+        left: 50%;
+    }
+    25% {
+        top: 50%;
+        left: 0;
+    }
+    50% {
+        top: 0;
+        left: 0;
+    }
+    75% {
+        top: 0;
+        left: 50%;
+    }
+    to {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@keyframes c3 {
+    from {
+        top: 50%;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 0;
+    }
+    50% {
+        top: 0;
+        left: 50%;
+    }
+    75% {
+        top: 50%;
+        left: 50%;
+    }
+    to {
+        top: 50%;
+        left: 0; 
+    }
+}
