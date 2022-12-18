@@ -1,0 +1,19 @@
+#div {
+    display: flex;
+    flex-direction: column;
+}
+
+.focus {
+    outline: none;
+    border: 5px solid green;
+    color: green;
+}
+
+.minus { 
+    outline: none;
+    border: 5px solid red;
+}
+
+.div::after {
+    content: 'Please enter correct price';
+}

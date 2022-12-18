@@ -1,0 +1,32 @@
+body {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.success {
+    background-image: url("../svg/img.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+.error {
+    background-image: url("../svg/img2.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.input-group {
+margin-top: 0px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
