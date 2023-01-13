@@ -1,4 +1,5 @@
 //вывод 4 рандомных товаров на главную страницу
+function ready() {
 var goodsContainer = document.querySelector('.block2-container');
 let newGoods = [];
 var out = '';
@@ -19,7 +20,7 @@ for(var key in goods){
     `
     newGoods.push(out);
 };
-
+console.log(newGoods);
 let result = [];
 
 getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
@@ -36,3 +37,7 @@ result.forEach((item) => {
 //вывод по 10 товаров на страницу товара
 
 //корзина
+var cart = document.querySelector('.cart');
+console.log(cart);
+};
+document.addEventListener("DOMContentLoaded", ready);
