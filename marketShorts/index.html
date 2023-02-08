@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sportif-магазин одягу</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="./code/sales-product.js"></script>
+    <script src="./code/index.js"></script>
 </head>
 <body>
     <header>
@@ -16,11 +18,11 @@
             </div>
             <div class="header-list">
                 <ul>
-                    <li><a href="#"><div>SHORTS</div></a></li>
-                    <li><a href="#"><div>PANTS</div></a></li>
-                    <li><a href="#"><div>SHIRTS</div></a></li>
-                    <li><a href="#"><div>ACCESSORIES</div></a></li>
-                    <li><a href="#"><div>SALE</div></a></li>
+                    <li><a href="./shorts/index.html"><div>SHORTS</div></a></li>
+                    <li><a href="./pants/index.html"><div>PANTS</div></a></li>
+                    <li><a href="./shirts/index.html"><div>SHIRTS</div></a></li>
+                    <li><a href="./accessories/index.html"><div>ACCESSORIES</div></a></li>
+                    <li><a href="./sale/index.html"><div>SALE</div></a></li>
                 </ul>
             </div>
             <div class="header-search">
@@ -163,7 +165,18 @@
             </div>
         </div>
     </footer>
-    <script src="./code/products.js"></script>
-    <script src="./code/code.js"></script>
+    <div id="modal" class="modal">
+        Товар додано до кошика<br>
+        <button class="modal-close">Продовжити покупки</button>
+        <button><a href="./cart/index.html">Перейти до кошика</a></button>
+    </div>
+    <div class="cart">
+    <div class="modal-cart">
+        <a href="./cart/index.html">
+            <img src="./images/shopping.png" alt="img">
+            <div class="modal-cart-n"></div>
+        </a>
+    </div>
+</div> 
 </body>
 </html>
